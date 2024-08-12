@@ -2,6 +2,7 @@
   "name": "fe-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://tankhoa1508.github.io/FEProject/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.19.4",
     "framer-motion": "^8.0.2",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^4.7.1",
@@ -28,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
