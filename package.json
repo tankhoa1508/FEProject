@@ -2,7 +2,7 @@
   "name": "fe-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tankhoa1508.github.io/FEProject/",
+  "homepage": "http://tankhoa1508.github.io/feproject1/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
